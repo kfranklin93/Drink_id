@@ -42,3 +42,8 @@
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
+
+  #birthYr{
+    color: #00bfff;
+    text-align: center;
+  }

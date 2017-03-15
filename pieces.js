@@ -13,5 +13,5 @@ function myFunction() {
  }else{
    console.log("nope");
  };
-
+//getElementById within or instead of the console log. 
 };

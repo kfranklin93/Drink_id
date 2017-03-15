@@ -33,38 +33,42 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">So You Think You Can Drink ? <i class="fa fa-arrow-up" aria-hidden="true"></i></a></li>
           <li><button><a class="btn btn-default btn-sm" href="https://twitter.com/nerajno" role="button" target="_blank"><span class="fa fa-twitter"></span> Follow me on Twitter</a></button>
-</li>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- First Container -->
-  <div class="container-fluid bg-1 text-center">
+  <!--Link back the top of this id to put in each page-->
+  <!-- on.click(reset) function-->
+  <div class="container-fluid bg-1 text-center" id="one">
     <h3 class="margin">How Old Are You ?</h3>
     <h4 class="margin">Please put in your age below</h3>
-    <div>
-      <form>
-        <input type="number" name="quantity" id="birthYr">
-        <button onclick="myFunction()" class="btn btn-default">Let's See</button>
-      </form>
+      <div>
+        <form>
+          <input type="number"  id="birthYr"  />
+        </form>
+          <button onclick="myFunction()" class="btn btn-default">Let's See</button>
+      </div>
+      <h3>Yes, Answer The Question <i class="fa fa-arrow-up" aria-hidden="true"></i></h3>
+
     </div>
-    <h3>Yes, Answer The Question <i class="fa fa-arrow-up" aria-hidden="true"></i></h3>
-  </div>
 
-  <!-- Second Container -->
-  <div class="container-fluid bg-2 text-center">
-    <h3 class="margin">You shall not pass</h3>
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center" id="two">
+      <h3 class="margin">You shall not pass</h3>
 
-    <a href="#" class="btn btn-default btn-lg">
-      <span class="glyphicon glyphicon-search"></span> Search
-    </a>
-  </div>
+      <a href="#" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </a>
+      <!-- #back-to-#id-one -->
+    </div>
 
-  <!-- Third Container (Grid) -->
-  <div class="container-fluid bg-3 text-center">
-    <h3 class="margin">Yes you can ?</h3><br>
-
-  </div>
-</body>
-</html>
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center" id="three">
+      <h3 class="margin">Yes you can ?</h3><br>
+    <!-- #back-to-#id-one -->
+    </div>
+  </body>
+  </html>
