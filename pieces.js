@@ -13,16 +13,16 @@ function myFunction() {
 
  //Esterlin- helped
   if (other > remainder){
-   document.getElementById('.two');
+   document.getElementById('#two');
   //console.log("hi");
  }else{
    //console.log("bye");
    document.getElementById('.three');
  };
 
- console.log(year);
+ console.log(other);
 //getElementById within or instead of the console log.
 };
-// was trying to figure this out another way 
+// was trying to figure this out another way
 //$('.letSee').on("click",myFunction());
 //Making progress
