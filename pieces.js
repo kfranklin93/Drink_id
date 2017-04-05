@@ -18,11 +18,11 @@ function myFunction() {
  //Esterlin- helped
 
   if (other >= remainder){
-   document.getElementById('#two');
+   document.getElementById('two');
   //console.log("hi");
  }else{
   //console.log("bye");
-  document.getElementById('#three');
+  document.getElementById('three');
  };
  console.log(other);
 //getElementById within or instead of the console log.
